@@ -1,11 +1,11 @@
 # Game Information
 (Note: fill in this portion with information about your game.)
 
-Title: (TODO: your game's title)
+Title: Sliding Ball
 
-Author: (TODO: your name)
+Author: Guanghao Yang
 
-Design Document: [TODO: name of design document](TODO: link to design document)
+Design Document: [Sliding Ball](http://graphics.cs.cmu.edu/courses/15-466-f18/game0-designs/guanghay/)
 
 Screen Shot:
 
@@ -13,11 +13,12 @@ Screen Shot:
 
 Difficulties Encountered:
 
-TODO: write several sentences about any difficulties you may have encountered in creating the game.
+I found it's hard for me to change the vertex color in a way I want in Blender. I can only paint some pink color on it...
+It seems my cpp code smells bad. I copy and paste tons of code to make my ball can slide in all direction with two modes.
 
 Good Code:
 
-TODO: write a sentence or two about any code you think you did particularly well.
+I finally encapuslate some helper function to help me access to ball data on the board.
 
 # Using This Base Code
 
