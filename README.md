@@ -13,12 +13,14 @@ Screen Shot:
 
 Difficulties Encountered:
 
+I spent too much time on trying to figure out how things work due to my infamiliar with cpp. Fortunately, at last I try to modify the existing code to make everything work.
 I found it's hard for me to change the vertex color in a way I want in Blender. I can only paint some pink color on it...
-It seems my cpp code smells bad. I copy and paste tons of code to make my ball can slide in all direction with two modes.
+My cpp code smells bad. I copy and paste tons of code to make my ball can slide in all direction with two modes. Besides, some ghost ball still existing on the board(with mesh property set to be null only)
 
 Good Code:
 
-I finally encapuslate some helper function to help me access to ball data on the board.
+I finally encapsulate some helper functions to help me access to ball data on the board.
+Prevent adding steps even when no movement at all.
 
 # Using This Base Code
 
